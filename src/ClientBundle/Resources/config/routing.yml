@@ -1,0 +1,9 @@
+client_homepage:
+    path: /client
+    defaults: { _controller: ClientBundle:Default:index }
+client_add:
+    path: /client/add
+    defaults: { _controller: ClientBundle:Default:add }
+client_login:
+    path: /client/login
+    defaults: { _controller: ClientBundle:Default:login }
